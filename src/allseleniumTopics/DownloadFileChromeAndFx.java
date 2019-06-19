@@ -1,14 +1,10 @@
 package allseleniumTopics;
 
 import java.util.HashMap;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class DownloadFileChromeAndFx {
 
@@ -29,12 +25,12 @@ public class DownloadFileChromeAndFx {
 		
 		
 		//firefox 
-		System.setProperty("webdriver.gecko.driver","D:\\program file\\selenium programs/geckodriver.exe");  //give location of the driver we already downloaded 
+		/*System.setProperty("webdriver.gecko.driver","D:\\program file\\selenium programs/geckodriver.exe");  //give location of the driver we already downloaded 
 		FirefoxOptions fxop =new FirefoxOptions();
 		HashMap <String ,Object> fxpref =new HashMap<String ,Object>();
 		//fxpref.put(key, value);
 		
-		WebDriver driver =new FirefoxDriver();
+		WebDriver driver =new FirefoxDriver();*/
 		
 	}
 
